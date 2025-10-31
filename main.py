@@ -32,5 +32,6 @@ while True:
    				print(t)
 	   		elif cmd[1]=='-w' or cmd[1]=='--write':
 				w.write(cmd[2])
-			elif cmd[1]=='-p' or cmd[1]=='--point':
-				
+	elif cmd[0]='quit':
+		if input('Enter y to quit')=='y':
+			break;
